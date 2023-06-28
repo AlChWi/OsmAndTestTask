@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EEDC343D-45D8-433D-97AB-4CFBB3CC42EF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33FF65C4-0948-490A-B7A5-27497E619546"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/MapsOverview/Views/StorageLeft/OAStorageLeftView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-setupWithConfiguration:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A0D3E8B-16A1-4594-B8D4-40FAFF23F692"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/MapsOverview/Views/StorageLeft/OAStorageLeftTableViewCell.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-configureSubviews"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1A0D3E8B-16A1-4594-B8D4-40FAFF23F692 - 58d3a1a768b0dbb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAStorageLeftTableViewCell initWithCoder:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/MapsOverview/Views/StorageLeft/OAStorageLeftTableViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "1A0D3E8B-16A1-4594-B8D4-40FAFF23F692 - 9ca23a64c5a8796d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAStorageLeftTableViewCell configureSubviews]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/MapsOverview/Views/StorageLeft/OAStorageLeftTableViewCell.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AEC29DB-D831-49A0-BF43-F11D34108391"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Flows/RegionDetails/OARegionDetailsViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-initWithConfiguration:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDD4C60F-275C-43CC-B61D-DDA460251AAD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Flows/RegionDetails/OARegionDetailsViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-initWithConfiguration:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A95F6B96-D80A-4696-AD26-D4E499F07F26"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Flows/MapsOverview/OAMapsOverviewViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECB4E8B3-0627-4F1C-86A0-D667B147AD30"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-initWithStorageManager:xmlParser:networkService:coordinator:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ECB4E8B3-0627-4F1C-86A0-D667B147AD30 - 64e746d942996b6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapsOverviewControllerConfiguration initWithStorageManager:xmlParser:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "ECB4E8B3-0627-4F1C-86A0-D667B147AD30 - 64e746d942996bad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapsOverviewControllerConfiguration initWithStorageManager:xmlParser:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDCFADEF-9F63-4E0C-8F57-2D965E975A75"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FDCFADEF-9F63-4E0C-8F57-2D965E975A75 - 6ff31525b066ad30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapsOverviewControllerConfiguration tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "FDCFADEF-9F63-4E0C-8F57-2D965E975A75 - 6ff31525b066ac8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapsOverviewControllerConfiguration tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A488EEF-E3CD-4228-B777-8627E0E8307C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6A488EEF-E3CD-4228-B777-8627E0E8307C - 6ff31525b066ad11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapsOverviewControllerConfiguration tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "6A488EEF-E3CD-4228-B777-8627E0E8307C - 6ff31525b066acf2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapsOverviewControllerConfiguration tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7359AAD-5F74-4CB8-84F9-1848622A9467"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Services/Network/Requests/ZipDownload/OAMapZipDownloadRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-URLSession:downloadTask:didFinishDownloadingToURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABF87CAC-920B-43CA-95CD-555FE34A8C03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Services/Network/OANetworkService.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-downloadMapForRegion:withPrefix:suffix:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0470991-44C5-4BE8-827E-1E77BFBE7EC8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Services/Network/Requests/ZipDownload/OAMapZipDownloadRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-startWithSession:url:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0470991-44C5-4BE8-827E-1E77BFBE7EC8 - ee04460a9b9b025b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapZipDownloadRequest URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Services/Network/Requests/ZipDownload/OAMapZipDownloadRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "B0470991-44C5-4BE8-827E-1E77BFBE7EC8 - 1df2b23caad4bfad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapZipDownloadRequest startWithSession:url:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Services/Network/Requests/ZipDownload/OAMapZipDownloadRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA3EDD16-D15B-4A33-AA02-63EA6918FB9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Services/Network/Requests/ZipDownload/OAMapZipDownloadRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA3EDD16-D15B-4A33-AA02-63EA6918FB9C - 2750124f06556526"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapZipDownloadRequest URLSession:downloadTask:didFinishDownloadingToURL:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Services/Network/Requests/ZipDownload/OAMapZipDownloadRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "BA3EDD16-D15B-4A33-AA02-63EA6918FB9C - ee04460a9b9b03fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[OAMapZipDownloadRequest URLSession:downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite:]"
+                  moduleName = "OsmAndTestTask"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alchwi/Documents/Studying/OsmAnd/OsmAndTestTask/OsmAndTestTask/Services/Network/Requests/ZipDownload/OAMapZipDownloadRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23198CA5-C80C-45FF-BF83-5B65AC09F696"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OsmAndTestTask/Flows/MapsOverview/Configuration/OAMapsOverviewControllerConfiguration.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-initWithStorageManager:xmlParser:networkService:coordinator:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

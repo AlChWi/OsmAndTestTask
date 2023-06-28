@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B441AFA2A4B8A7800F4FBE8 /* OAMapZipDownloadRequestURLEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B441AF92A4B8A7800F4FBE8 /* OAMapZipDownloadRequestURLEncoder.m */; };
+		9B4B30582A4A1A3000F4BBE1 /* UIColor+ProjectColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B30572A4A1A3000F4BBE1 /* UIColor+ProjectColors.m */; };
+		9B4B305C2A4A1E5100F4BBE1 /* OARegionDownloadStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B305B2A4A1E5100F4BBE1 /* OARegionDownloadStatusTableViewCell.m */; };
+		9B4B30602A4A1F2200F4BBE1 /* OARegionDownloadStatusViewConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B305F2A4A1F2200F4BBE1 /* OARegionDownloadStatusViewConfiguration.m */; };
+		9B4B30632A4A245600F4BBE1 /* UIImage+ProjectIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B30622A4A245600F4BBE1 /* UIImage+ProjectIcons.m */; };
+		9B4B30672A4A362D00F4BBE1 /* OARegionDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B30662A4A362D00F4BBE1 /* OARegionDetailsViewController.m */; };
+		9B4B306D2A4A4D1300F4BBE1 /* DeviceStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B306C2A4A4D1300F4BBE1 /* DeviceStorageManager.m */; };
+		9B4B30712A4A509300F4BBE1 /* OAMapsOverviewControllerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4B30702A4A509300F4BBE1 /* OAMapsOverviewControllerConfiguration.m */; };
+		9B4BB5132A4ACFD8006F2942 /* OAMapsOverviewCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5122A4ACFD8006F2942 /* OAMapsOverviewCoordinator.m */; };
+		9B4BB5172A4AD1E6006F2942 /* OARegionDetailsControllerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5162A4AD1E6006F2942 /* OARegionDetailsControllerConfiguration.m */; };
+		9B4BB51B2A4AD36A006F2942 /* OARegionDetailsControllerBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB51A2A4AD36A006F2942 /* OARegionDetailsControllerBuilder.m */; };
+		9B4BB5212A4AD72A006F2942 /* OATableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5202A4AD72A006F2942 /* OATableViewModel.m */; };
+		9B4BB5242A4AE027006F2942 /* OATableViewModelSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5232A4AE027006F2942 /* OATableViewModelSection.m */; };
+		9B4BB5282A4AE799006F2942 /* OAContinentHeaderConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5272A4AE799006F2942 /* OAContinentHeaderConfiguration.m */; };
+		9B4BB52A2A4AED5F006F2942 /* regions.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9B4BB5292A4AED5F006F2942 /* regions.xml */; };
+		9B4BB52E2A4AEEC5006F2942 /* OARegionsXMLDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB52D2A4AEEC5006F2942 /* OARegionsXMLDataParser.m */; };
+		9B4BB5342A4AFAA0006F2942 /* OARegionsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5332A4AFAA0006F2942 /* OARegionsList.m */; };
+		9B4BB5372A4B0144006F2942 /* OARegionsListContinent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5362A4B0144006F2942 /* OARegionsListContinent.m */; };
+		9B4BB53A2A4B1057006F2942 /* OARegionsListCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5392A4B1057006F2942 /* OARegionsListCountry.m */; };
+		9B4BB53D2A4B1060006F2942 /* OARegionsListCountryArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB53C2A4B1060006F2942 /* OARegionsListCountryArea.m */; };
+		9B4BB5422A4B22DE006F2942 /* OARegionDetailsCountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5412A4B22DE006F2942 /* OARegionDetailsCountryModel.m */; };
+		9B4BB5452A4B231D006F2942 /* OARegionDetailsContinentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5442A4B231D006F2942 /* OARegionDetailsContinentModel.m */; };
+		9B4BB54A2A4B7C73006F2942 /* OANetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5492A4B7C73006F2942 /* OANetworkService.m */; };
+		9B4BB5522A4B7E39006F2942 /* OAMapZipDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BB5512A4B7E39006F2942 /* OAMapZipDownloadRequest.m */; };
+		9B84D9142A49C57E00E07A19 /* UINavigationBarAppearance+CustomAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84D9132A49C57E00E07A19 /* UINavigationBarAppearance+CustomAppearance.m */; };
+		9B84D9172A49CE6E00E07A19 /* OAStorageLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84D9162A49CE6E00E07A19 /* OAStorageLeftView.m */; };
+		9B84D91F2A49FD4600E07A19 /* OAStorageLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84D91E2A49FD4600E07A19 /* OAStorageLeftTableViewCell.m */; };
+		9B84D9292A4A01DD00E07A19 /* OAStorageLeftViewConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84D9282A4A01DD00E07A19 /* OAStorageLeftViewConfiguration.m */; };
+		9B84D9302A4A136A00E07A19 /* OAContinentHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84D92F2A4A136A00E07A19 /* OAContinentHeaderFooterView.m */; };
+		9BE83DDE2A49BA8C00903A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE83DDD2A49BA8C00903A25 /* AppDelegate.m */; };
+		9BE83DE12A49BA8C00903A25 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE83DE02A49BA8C00903A25 /* SceneDelegate.m */; };
+		9BE83DE42A49BA8C00903A25 /* OAMapsOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE83DE32A49BA8C00903A25 /* OAMapsOverviewViewController.m */; };
+		9BE83DE92A49BA8C00903A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE83DE82A49BA8C00903A25 /* Assets.xcassets */; };
+		9BE83DEC2A49BA8C00903A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE83DEA2A49BA8C00903A25 /* LaunchScreen.storyboard */; };
+		9BE83DEF2A49BA8C00903A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE83DEE2A49BA8C00903A25 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B441AF72A4B88DD00F4FBE8 /* OAMapZipDownloadRequestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAMapZipDownloadRequestDelegate.h; sourceTree = "<group>"; };
+		9B441AF82A4B8A7800F4FBE8 /* OAMapZipDownloadRequestURLEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAMapZipDownloadRequestURLEncoder.h; sourceTree = "<group>"; };
+		9B441AF92A4B8A7800F4FBE8 /* OAMapZipDownloadRequestURLEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAMapZipDownloadRequestURLEncoder.m; sourceTree = "<group>"; };
+		9B4B30562A4A1A3000F4BBE1 /* UIColor+ProjectColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ProjectColors.h"; sourceTree = "<group>"; };
+		9B4B30572A4A1A3000F4BBE1 /* UIColor+ProjectColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ProjectColors.m"; sourceTree = "<group>"; };
+		9B4B305A2A4A1E5100F4BBE1 /* OARegionDownloadStatusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionDownloadStatusTableViewCell.h; sourceTree = "<group>"; };
+		9B4B305B2A4A1E5100F4BBE1 /* OARegionDownloadStatusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionDownloadStatusTableViewCell.m; sourceTree = "<group>"; };
+		9B4B305E2A4A1F2200F4BBE1 /* OARegionDownloadStatusViewConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionDownloadStatusViewConfiguration.h; sourceTree = "<group>"; };
+		9B4B305F2A4A1F2200F4BBE1 /* OARegionDownloadStatusViewConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionDownloadStatusViewConfiguration.m; sourceTree = "<group>"; };
+		9B4B30612A4A245600F4BBE1 /* UIImage+ProjectIcons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ProjectIcons.h"; sourceTree = "<group>"; };
+		9B4B30622A4A245600F4BBE1 /* UIImage+ProjectIcons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ProjectIcons.m"; sourceTree = "<group>"; };
+		9B4B30652A4A362D00F4BBE1 /* OARegionDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionDetailsViewController.h; sourceTree = "<group>"; };
+		9B4B30662A4A362D00F4BBE1 /* OARegionDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionDetailsViewController.m; sourceTree = "<group>"; };
+		9B4B306B2A4A4D1300F4BBE1 /* DeviceStorageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceStorageManager.h; sourceTree = "<group>"; };
+		9B4B306C2A4A4D1300F4BBE1 /* DeviceStorageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceStorageManager.m; sourceTree = "<group>"; };
+		9B4B306F2A4A509300F4BBE1 /* OAMapsOverviewControllerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAMapsOverviewControllerConfiguration.h; sourceTree = "<group>"; };
+		9B4B30702A4A509300F4BBE1 /* OAMapsOverviewControllerConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAMapsOverviewControllerConfiguration.m; sourceTree = "<group>"; };
+		9B4BB5112A4ACFD8006F2942 /* OAMapsOverviewCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAMapsOverviewCoordinator.h; sourceTree = "<group>"; };
+		9B4BB5122A4ACFD8006F2942 /* OAMapsOverviewCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAMapsOverviewCoordinator.m; sourceTree = "<group>"; };
+		9B4BB5152A4AD1E6006F2942 /* OARegionDetailsControllerConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionDetailsControllerConfiguration.h; sourceTree = "<group>"; };
+		9B4BB5162A4AD1E6006F2942 /* OARegionDetailsControllerConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionDetailsControllerConfiguration.m; sourceTree = "<group>"; };
+		9B4BB5192A4AD36A006F2942 /* OARegionDetailsControllerBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionDetailsControllerBuilder.h; sourceTree = "<group>"; };
+		9B4BB51A2A4AD36A006F2942 /* OARegionDetailsControllerBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionDetailsControllerBuilder.m; sourceTree = "<group>"; };
+		9B4BB51F2A4AD72A006F2942 /* OATableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OATableViewModel.h; sourceTree = "<group>"; };
+		9B4BB5202A4AD72A006F2942 /* OATableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OATableViewModel.m; sourceTree = "<group>"; };
+		9B4BB5222A4AE027006F2942 /* OATableViewModelSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OATableViewModelSection.h; sourceTree = "<group>"; };
+		9B4BB5232A4AE027006F2942 /* OATableViewModelSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OATableViewModelSection.m; sourceTree = "<group>"; };
+		9B4BB5262A4AE799006F2942 /* OAContinentHeaderConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAContinentHeaderConfiguration.h; sourceTree = "<group>"; };
+		9B4BB5272A4AE799006F2942 /* OAContinentHeaderConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAContinentHeaderConfiguration.m; sourceTree = "<group>"; };
+		9B4BB5292A4AED5F006F2942 /* regions.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = regions.xml; sourceTree = "<group>"; };
+		9B4BB52C2A4AEEC5006F2942 /* OARegionsXMLDataParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionsXMLDataParser.h; sourceTree = "<group>"; };
+		9B4BB52D2A4AEEC5006F2942 /* OARegionsXMLDataParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionsXMLDataParser.m; sourceTree = "<group>"; };
+		9B4BB5322A4AFAA0006F2942 /* OARegionsList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionsList.h; sourceTree = "<group>"; };
+		9B4BB5332A4AFAA0006F2942 /* OARegionsList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionsList.m; sourceTree = "<group>"; };
+		9B4BB5352A4B0144006F2942 /* OARegionsListContinent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionsListContinent.h; sourceTree = "<group>"; };
+		9B4BB5362A4B0144006F2942 /* OARegionsListContinent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionsListContinent.m; sourceTree = "<group>"; };
+		9B4BB5382A4B1057006F2942 /* OARegionsListCountry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionsListCountry.h; sourceTree = "<group>"; };
+		9B4BB5392A4B1057006F2942 /* OARegionsListCountry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionsListCountry.m; sourceTree = "<group>"; };
+		9B4BB53B2A4B1060006F2942 /* OARegionsListCountryArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionsListCountryArea.h; sourceTree = "<group>"; };
+		9B4BB53C2A4B1060006F2942 /* OARegionsListCountryArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionsListCountryArea.m; sourceTree = "<group>"; };
+		9B4BB5402A4B22DE006F2942 /* OARegionDetailsCountryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionDetailsCountryModel.h; sourceTree = "<group>"; };
+		9B4BB5412A4B22DE006F2942 /* OARegionDetailsCountryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionDetailsCountryModel.m; sourceTree = "<group>"; };
+		9B4BB5432A4B231D006F2942 /* OARegionDetailsContinentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OARegionDetailsContinentModel.h; sourceTree = "<group>"; };
+		9B4BB5442A4B231D006F2942 /* OARegionDetailsContinentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OARegionDetailsContinentModel.m; sourceTree = "<group>"; };
+		9B4BB5482A4B7C73006F2942 /* OANetworkService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OANetworkService.h; sourceTree = "<group>"; };
+		9B4BB5492A4B7C73006F2942 /* OANetworkService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OANetworkService.m; sourceTree = "<group>"; };
+		9B4BB5502A4B7E39006F2942 /* OAMapZipDownloadRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAMapZipDownloadRequest.h; sourceTree = "<group>"; };
+		9B4BB5512A4B7E39006F2942 /* OAMapZipDownloadRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAMapZipDownloadRequest.m; sourceTree = "<group>"; };
+		9B84D9122A49C57E00E07A19 /* UINavigationBarAppearance+CustomAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBarAppearance+CustomAppearance.h"; sourceTree = "<group>"; };
+		9B84D9132A49C57E00E07A19 /* UINavigationBarAppearance+CustomAppearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBarAppearance+CustomAppearance.m"; sourceTree = "<group>"; };
+		9B84D9152A49CE6E00E07A19 /* OAStorageLeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAStorageLeftView.h; sourceTree = "<group>"; };
+		9B84D9162A49CE6E00E07A19 /* OAStorageLeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAStorageLeftView.m; sourceTree = "<group>"; };
+		9B84D91D2A49FD4600E07A19 /* OAStorageLeftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAStorageLeftTableViewCell.h; sourceTree = "<group>"; };
+		9B84D91E2A49FD4600E07A19 /* OAStorageLeftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAStorageLeftTableViewCell.m; sourceTree = "<group>"; };
+		9B84D9272A4A01DD00E07A19 /* OAStorageLeftViewConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAStorageLeftViewConfiguration.h; sourceTree = "<group>"; };
+		9B84D9282A4A01DD00E07A19 /* OAStorageLeftViewConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAStorageLeftViewConfiguration.m; sourceTree = "<group>"; };
+		9B84D92E2A4A136A00E07A19 /* OAContinentHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAContinentHeaderFooterView.h; sourceTree = "<group>"; };
+		9B84D92F2A4A136A00E07A19 /* OAContinentHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAContinentHeaderFooterView.m; sourceTree = "<group>"; };
+		9BE83DD92A49BA8C00903A25 /* OsmAndTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OsmAndTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE83DDC2A49BA8C00903A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BE83DDD2A49BA8C00903A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BE83DDF2A49BA8C00903A25 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9BE83DE02A49BA8C00903A25 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9BE83DE22A49BA8C00903A25 /* OAMapsOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAMapsOverviewViewController.h; sourceTree = "<group>"; };
+		9BE83DE32A49BA8C00903A25 /* OAMapsOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAMapsOverviewViewController.m; sourceTree = "<group>"; };
+		9BE83DE82A49BA8C00903A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE83DEB2A49BA8C00903A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BE83DED2A49BA8C00903A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE83DEE2A49BA8C00903A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE83DD62A49BA8C00903A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B441AF62A4B88C500F4FBE8 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9B441AF72A4B88DD00F4FBE8 /* OAMapZipDownloadRequestDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		9B4B30592A4A1E0400F4BBE1 /* RegionDownloadStatus */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B305D2A4A1EFD00F4BBE1 /* Configuration */,
+				9B4B305A2A4A1E5100F4BBE1 /* OARegionDownloadStatusTableViewCell.h */,
+				9B4B305B2A4A1E5100F4BBE1 /* OARegionDownloadStatusTableViewCell.m */,
+			);
+			path = RegionDownloadStatus;
+			sourceTree = "<group>";
+		};
+		9B4B305D2A4A1EFD00F4BBE1 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B305E2A4A1F2200F4BBE1 /* OARegionDownloadStatusViewConfiguration.h */,
+				9B4B305F2A4A1F2200F4BBE1 /* OARegionDownloadStatusViewConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9B4B30642A4A262A00F4BBE1 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B30682A4A363600F4BBE1 /* RegionDetails */,
+				9B84D9202A49FFA500E07A19 /* MapsOverview */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		9B4B30682A4A363600F4BBE1 /* RegionDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5182A4AD353006F2942 /* Builders */,
+				9B4BB5142A4AD1B6006F2942 /* Configuration */,
+				9B4B30652A4A362D00F4BBE1 /* OARegionDetailsViewController.h */,
+				9B4B30662A4A362D00F4BBE1 /* OARegionDetailsViewController.m */,
+			);
+			path = RegionDetails;
+			sourceTree = "<group>";
+		};
+		9B4B30692A4A4CCD00F4BBE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB53F2A4B196E006F2942 /* XMLRegionParser */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B4B306A2A4A4CEC00F4BBE1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B30562A4A1A3000F4BBE1 /* UIColor+ProjectColors.h */,
+				9B4B30572A4A1A3000F4BBE1 /* UIColor+ProjectColors.m */,
+				9B4B30612A4A245600F4BBE1 /* UIImage+ProjectIcons.h */,
+				9B4B30622A4A245600F4BBE1 /* UIImage+ProjectIcons.m */,
+				9B84D9122A49C57E00E07A19 /* UINavigationBarAppearance+CustomAppearance.h */,
+				9B84D9132A49C57E00E07A19 /* UINavigationBarAppearance+CustomAppearance.m */,
+				9B4BB5222A4AE027006F2942 /* OATableViewModelSection.h */,
+				9B4BB5232A4AE027006F2942 /* OATableViewModelSection.m */,
+				9B4BB51F2A4AD72A006F2942 /* OATableViewModel.h */,
+				9B4BB5202A4AD72A006F2942 /* OATableViewModel.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9B4B306E2A4A4FFE00F4BBE1 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B306F2A4A509300F4BBE1 /* OAMapsOverviewControllerConfiguration.h */,
+				9B4B30702A4A509300F4BBE1 /* OAMapsOverviewControllerConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9B4BB5102A4ACFC2006F2942 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5112A4ACFD8006F2942 /* OAMapsOverviewCoordinator.h */,
+				9B4BB5122A4ACFD8006F2942 /* OAMapsOverviewCoordinator.m */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		9B4BB5142A4AD1B6006F2942 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5152A4AD1E6006F2942 /* OARegionDetailsControllerConfiguration.h */,
+				9B4BB5162A4AD1E6006F2942 /* OARegionDetailsControllerConfiguration.m */,
+				9B4BB5402A4B22DE006F2942 /* OARegionDetailsCountryModel.h */,
+				9B4BB5412A4B22DE006F2942 /* OARegionDetailsCountryModel.m */,
+				9B4BB5432A4B231D006F2942 /* OARegionDetailsContinentModel.h */,
+				9B4BB5442A4B231D006F2942 /* OARegionDetailsContinentModel.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9B4BB5182A4AD353006F2942 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5192A4AD36A006F2942 /* OARegionDetailsControllerBuilder.h */,
+				9B4BB51A2A4AD36A006F2942 /* OARegionDetailsControllerBuilder.m */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		9B4BB5252A4AE785006F2942 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5262A4AE799006F2942 /* OAContinentHeaderConfiguration.h */,
+				9B4BB5272A4AE799006F2942 /* OAContinentHeaderConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9B4BB52B2A4AEEAE006F2942 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB52C2A4AEEC5006F2942 /* OARegionsXMLDataParser.h */,
+				9B4BB52D2A4AEEC5006F2942 /* OARegionsXMLDataParser.m */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		9B4BB53E2A4B195E006F2942 /* DeviceStorage */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B306B2A4A4D1300F4BBE1 /* DeviceStorageManager.h */,
+				9B4B306C2A4A4D1300F4BBE1 /* DeviceStorageManager.m */,
+			);
+			path = DeviceStorage;
+			sourceTree = "<group>";
+		};
+		9B4BB53F2A4B196E006F2942 /* XMLRegionParser */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5322A4AFAA0006F2942 /* OARegionsList.h */,
+				9B4BB5332A4AFAA0006F2942 /* OARegionsList.m */,
+				9B4BB5352A4B0144006F2942 /* OARegionsListContinent.h */,
+				9B4BB5362A4B0144006F2942 /* OARegionsListContinent.m */,
+				9B4BB5382A4B1057006F2942 /* OARegionsListCountry.h */,
+				9B4BB5392A4B1057006F2942 /* OARegionsListCountry.m */,
+				9B4BB53B2A4B1060006F2942 /* OARegionsListCountryArea.h */,
+				9B4BB53C2A4B1060006F2942 /* OARegionsListCountryArea.m */,
+			);
+			path = XMLRegionParser;
+			sourceTree = "<group>";
+		};
+		9B4BB5462A4B7C24006F2942 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5472A4B7C66006F2942 /* Network */,
+				9B4BB53E2A4B195E006F2942 /* DeviceStorage */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9B4BB5472A4B7C66006F2942 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB54B2A4B7DE2006F2942 /* Requests */,
+				9B4BB5482A4B7C73006F2942 /* OANetworkService.h */,
+				9B4BB5492A4B7C73006F2942 /* OANetworkService.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9B4BB54B2A4B7DE2006F2942 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB54C2A4B7E0D006F2942 /* ZipDownload */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		9B4BB54C2A4B7E0D006F2942 /* ZipDownload */ = {
+			isa = PBXGroup;
+			children = (
+				9B441AF62A4B88C500F4FBE8 /* Delegate */,
+				9B4BB54E2A4B7E1C006F2942 /* URLEncoder */,
+				9B4BB5502A4B7E39006F2942 /* OAMapZipDownloadRequest.h */,
+				9B4BB5512A4B7E39006F2942 /* OAMapZipDownloadRequest.m */,
+			);
+			path = ZipDownload;
+			sourceTree = "<group>";
+		};
+		9B4BB54E2A4B7E1C006F2942 /* URLEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				9B441AF82A4B8A7800F4FBE8 /* OAMapZipDownloadRequestURLEncoder.h */,
+				9B441AF92A4B8A7800F4FBE8 /* OAMapZipDownloadRequestURLEncoder.m */,
+			);
+			path = URLEncoder;
+			sourceTree = "<group>";
+		};
+		9B84D9202A49FFA500E07A19 /* MapsOverview */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5102A4ACFC2006F2942 /* Coordinator */,
+				9B4B306E2A4A4FFE00F4BBE1 /* Configuration */,
+				9BE83DE22A49BA8C00903A25 /* OAMapsOverviewViewController.h */,
+				9BE83DE32A49BA8C00903A25 /* OAMapsOverviewViewController.m */,
+				9B84D9232A49FFF800E07A19 /* Views */,
+			);
+			path = MapsOverview;
+			sourceTree = "<group>";
+		};
+		9B84D9212A49FFC700E07A19 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB52B2A4AEEAE006F2942 /* XML */,
+				9B4B306A2A4A4CEC00F4BBE1 /* Helpers */,
+				9BE83DDC2A49BA8C00903A25 /* AppDelegate.h */,
+				9BE83DDD2A49BA8C00903A25 /* AppDelegate.m */,
+				9BE83DDF2A49BA8C00903A25 /* SceneDelegate.h */,
+				9BE83DE02A49BA8C00903A25 /* SceneDelegate.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9B84D9232A49FFF800E07A19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B4B30592A4A1E0400F4BBE1 /* RegionDownloadStatus */,
+				9B84D92D2A4A134200E07A19 /* ContinentHeader */,
+				9B84D9242A4A002100E07A19 /* StorageLeft */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B84D9242A4A002100E07A19 /* StorageLeft */ = {
+			isa = PBXGroup;
+			children = (
+				9B84D9262A4A01C800E07A19 /* Configuration */,
+				9B84D9152A49CE6E00E07A19 /* OAStorageLeftView.h */,
+				9B84D9162A49CE6E00E07A19 /* OAStorageLeftView.m */,
+				9B84D91D2A49FD4600E07A19 /* OAStorageLeftTableViewCell.h */,
+				9B84D91E2A49FD4600E07A19 /* OAStorageLeftTableViewCell.m */,
+			);
+			path = StorageLeft;
+			sourceTree = "<group>";
+		};
+		9B84D9262A4A01C800E07A19 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9B84D9272A4A01DD00E07A19 /* OAStorageLeftViewConfiguration.h */,
+				9B84D9282A4A01DD00E07A19 /* OAStorageLeftViewConfiguration.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9B84D92D2A4A134200E07A19 /* ContinentHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5252A4AE785006F2942 /* Configuration */,
+				9B84D92E2A4A136A00E07A19 /* OAContinentHeaderFooterView.h */,
+				9B84D92F2A4A136A00E07A19 /* OAContinentHeaderFooterView.m */,
+			);
+			path = ContinentHeader;
+			sourceTree = "<group>";
+		};
+		9BE83DD02A49BA8C00903A25 = {
+			isa = PBXGroup;
+			children = (
+				9BE83DDB2A49BA8C00903A25 /* OsmAndTestTask */,
+				9BE83DDA2A49BA8C00903A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE83DDA2A49BA8C00903A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE83DD92A49BA8C00903A25 /* OsmAndTestTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BE83DDB2A49BA8C00903A25 /* OsmAndTestTask */ = {
+			isa = PBXGroup;
+			children = (
+				9B4BB5292A4AED5F006F2942 /* regions.xml */,
+				9B4BB5462A4B7C24006F2942 /* Services */,
+				9B4B30692A4A4CCD00F4BBE1 /* Model */,
+				9B84D9212A49FFC700E07A19 /* Core */,
+				9B4B30642A4A262A00F4BBE1 /* Flows */,
+				9BE83DE82A49BA8C00903A25 /* Assets.xcassets */,
+				9BE83DEA2A49BA8C00903A25 /* LaunchScreen.storyboard */,
+				9BE83DED2A49BA8C00903A25 /* Info.plist */,
+				9BE83DEE2A49BA8C00903A25 /* main.m */,
+			);
+			path = OsmAndTestTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE83DD82A49BA8C00903A25 /* OsmAndTestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE83DF22A49BA8C00903A25 /* Build configuration list for PBXNativeTarget "OsmAndTestTask" */;
+			buildPhases = (
+				9BE83DD52A49BA8C00903A25 /* Sources */,
+				9BE83DD62A49BA8C00903A25 /* Frameworks */,
+				9BE83DD72A49BA8C00903A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OsmAndTestTask;
+			productName = OsmAndTestTask;
+			productReference = 9BE83DD92A49BA8C00903A25 /* OsmAndTestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BE83DD12A49BA8C00903A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9BE83DD82A49BA8C00903A25 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+				};
+			};
+			buildConfigurationList = 9BE83DD42A49BA8C00903A25 /* Build configuration list for PBXProject "OsmAndTestTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BE83DD02A49BA8C00903A25;
+			productRefGroup = 9BE83DDA2A49BA8C00903A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE83DD82A49BA8C00903A25 /* OsmAndTestTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BE83DD72A49BA8C00903A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE83DEC2A49BA8C00903A25 /* LaunchScreen.storyboard in Resources */,
+				9BE83DE92A49BA8C00903A25 /* Assets.xcassets in Resources */,
+				9B4BB52A2A4AED5F006F2942 /* regions.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BE83DD52A49BA8C00903A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B84D9302A4A136A00E07A19 /* OAContinentHeaderFooterView.m in Sources */,
+				9BE83DE42A49BA8C00903A25 /* OAMapsOverviewViewController.m in Sources */,
+				9B4BB53A2A4B1057006F2942 /* OARegionsListCountry.m in Sources */,
+				9B4B306D2A4A4D1300F4BBE1 /* DeviceStorageManager.m in Sources */,
+				9B84D9172A49CE6E00E07A19 /* OAStorageLeftView.m in Sources */,
+				9B4BB53D2A4B1060006F2942 /* OARegionsListCountryArea.m in Sources */,
+				9B4B30632A4A245600F4BBE1 /* UIImage+ProjectIcons.m in Sources */,
+				9B4BB51B2A4AD36A006F2942 /* OARegionDetailsControllerBuilder.m in Sources */,
+				9B4B30712A4A509300F4BBE1 /* OAMapsOverviewControllerConfiguration.m in Sources */,
+				9B4BB52E2A4AEEC5006F2942 /* OARegionsXMLDataParser.m in Sources */,
+				9BE83DDE2A49BA8C00903A25 /* AppDelegate.m in Sources */,
+				9B441AFA2A4B8A7800F4FBE8 /* OAMapZipDownloadRequestURLEncoder.m in Sources */,
+				9B4BB5132A4ACFD8006F2942 /* OAMapsOverviewCoordinator.m in Sources */,
+				9B4BB54A2A4B7C73006F2942 /* OANetworkService.m in Sources */,
+				9B84D9142A49C57E00E07A19 /* UINavigationBarAppearance+CustomAppearance.m in Sources */,
+				9B4B30582A4A1A3000F4BBE1 /* UIColor+ProjectColors.m in Sources */,
+				9B4BB5452A4B231D006F2942 /* OARegionDetailsContinentModel.m in Sources */,
+				9B4B30672A4A362D00F4BBE1 /* OARegionDetailsViewController.m in Sources */,
+				9B4BB5422A4B22DE006F2942 /* OARegionDetailsCountryModel.m in Sources */,
+				9B4BB5342A4AFAA0006F2942 /* OARegionsList.m in Sources */,
+				9B4BB5282A4AE799006F2942 /* OAContinentHeaderConfiguration.m in Sources */,
+				9B4BB5172A4AD1E6006F2942 /* OARegionDetailsControllerConfiguration.m in Sources */,
+				9B4BB5212A4AD72A006F2942 /* OATableViewModel.m in Sources */,
+				9B4B305C2A4A1E5100F4BBE1 /* OARegionDownloadStatusTableViewCell.m in Sources */,
+				9B4B30602A4A1F2200F4BBE1 /* OARegionDownloadStatusViewConfiguration.m in Sources */,
+				9B84D9292A4A01DD00E07A19 /* OAStorageLeftViewConfiguration.m in Sources */,
+				9B84D91F2A49FD4600E07A19 /* OAStorageLeftTableViewCell.m in Sources */,
+				9B4BB5522A4B7E39006F2942 /* OAMapZipDownloadRequest.m in Sources */,
+				9B4BB5372A4B0144006F2942 /* OARegionsListContinent.m in Sources */,
+				9BE83DEF2A49BA8C00903A25 /* main.m in Sources */,
+				9B4BB5242A4AE027006F2942 /* OATableViewModelSection.m in Sources */,
+				9BE83DE12A49BA8C00903A25 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BE83DEA2A49BA8C00903A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE83DEB2A49BA8C00903A25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BE83DF02A49BA8C00903A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BE83DF12A49BA8C00903A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE83DF32A49BA8C00903A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CTGEUBGR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OsmAndTestTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alchwi.projspaces.OsmAndTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OsmAndTestTask/Model/OsmAndTestTask-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BE83DF42A49BA8C00903A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CTGEUBGR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OsmAndTestTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alchwi.projspaces.OsmAndTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "OsmAndTestTask/Model/OsmAndTestTask-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE83DD42A49BA8C00903A25 /* Build configuration list for PBXProject "OsmAndTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE83DF02A49BA8C00903A25 /* Debug */,
+				9BE83DF12A49BA8C00903A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE83DF22A49BA8C00903A25 /* Build configuration list for PBXNativeTarget "OsmAndTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE83DF32A49BA8C00903A25 /* Debug */,
+				9BE83DF42A49BA8C00903A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BE83DD12A49BA8C00903A25 /* Project object */;
+}
